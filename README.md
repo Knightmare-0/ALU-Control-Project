@@ -9,7 +9,6 @@
 #### head-4
 
 
-<center>
-  name
-</center>
-apple </br> asdfjjhdasf
+```
+sudo apt install gtkwave
+```

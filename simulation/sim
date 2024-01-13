@@ -1,0 +1,5 @@
+iverilog ../rtl/alu.v alu_tb.v
+./a.out
+
+gtkwave wave.vcd
+exit 

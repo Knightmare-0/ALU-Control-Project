@@ -1,4 +1,4 @@
-iverilog ../rtl/alu.v alu_tb.v
+iverilog ../rtl/TopModule.v ALU_core.v TopModule_tb.v
 ./a.out
 
 gtkwave wave.vcd

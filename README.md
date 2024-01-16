@@ -1,17 +1,11 @@
 # ALU-Control-Project
 
-# head-1
+### Truth Table
+![image](https://github.com/Knightmare-0/ALU-Control-Project/assets/112769624/529cfb6a-ea51-4518-af8c-ace603863669)
 
-## head -2
-
-### head-3
-
-#### head-4
-
-
+The link to the Truth Table is given Below
 ```
-sudo apt install gtkwave
+https://docs.google.com/spreadsheets/d/1ljx8D3aer86oXyBBr_dR3ND3B9fEVdWhKcU-J6pY5Xo/edit#gid=0
 ```
-![placement](https://github.com/Knightmare-0/ALU-Control-Project/assets/112769624/78f185b1-abba-4f50-b5dd-1d7c43a58810)
 
-placement output
+### Tasks

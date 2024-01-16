@@ -42,3 +42,9 @@ report_tns -digits 4 > sta_report/tns
 report_worst_slack -digits 4 > sta_report/worst_slack
 report_check_types -all_violators > sta_report/violations
 ```
+> [!NOTE]
+> After reading the constraints file
+> input command report_checks
+> Check if the slack is positive
+> Take the reciprocal of the slack to obtain the maximum clock frequency
+> time scale is typically in nano seconds

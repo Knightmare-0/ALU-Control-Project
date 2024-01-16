@@ -6,7 +6,7 @@
 ./netlist_gen.sh
 ```
 > [!NOTE]
-> Change the file path, file name, top module name and the library that is to be synthesized in
+> Change the file path, file name, top module name and the library that is to be synthesized in </br>
 > netlist_gen.sh yosys_run.ys
 
 ### Run the below command to generate GLS and STA reports
@@ -14,7 +14,7 @@
 ./report_gen.sh
 ```
 > [!NOTE]
-> Change the file path, file name, top module name,the library, and the constraints in
+> Change the file path, file name, top module name,the library, and the constraints in </br>
 > report_gen.sh sta.tcl
 
 
@@ -43,8 +43,8 @@ report_worst_slack -digits 4 > sta_report/worst_slack
 report_check_types -all_violators > sta_report/violations
 ```
 > [!NOTE]
-> After reading the constraints file
-> input command report_checks
-> Check if the slack is positive
-> Take the reciprocal of the slack to obtain the maximum clock frequency
-> time scale is typically in nano seconds
+> After reading the constraints file </br>
+> input command report_checks </br>
+> Check if the slack is positive </br>
+> Take the reciprocal of the slack to obtain the maximum clock frequency </br>
+> time scale is typically in nanoseconds </br>

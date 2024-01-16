@@ -17,3 +17,16 @@
 > [!NOTE]
 > Change the file path, file name, top module name,the library, and the constraints in
 > report_gen.sh sta.tcl
+
+
+### Yosys Commands
+```
+read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog multicore_alu.v 
+synth -top multicore_alu
+dfflibmap -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+opt -purge 
+abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+write_verilog -noattr multicore_tt_025C_1v80.v
+```

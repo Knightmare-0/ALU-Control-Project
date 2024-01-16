@@ -9,3 +9,12 @@ https://docs.google.com/spreadsheets/d/1ljx8D3aer86oXyBBr_dR3ND3B9fEVdWhKcU-J6pY
 ```
 
 ### Tasks
++ Complete the testbench to verify all the operations in individual cores
++ Make a 2-bit flag output that tells which core is being used in the top module
++ Show the flag output as a signal in the testbench to verify
++ Edit all the script files with proper paths and file names
++ Synthesize the top module with the library sky130_fd_sc_hd__tt_025C_1v80.lib from yosys
++ Run Static Timing Analysis using OpenSTA
++ Document the output of the testbench in the simulation folder
++ Document the STA Analysis in the same folder and determine the Clock Frequency
+

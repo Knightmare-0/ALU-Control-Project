@@ -5,7 +5,6 @@
 ```
 ./netlist_gen.sh
 ```
-#### Note
 > [!NOTE]
 > Change the file path, file name, top module name and the library that is to be synthesized in
 > netlist_gen.sh yosys_run.ys

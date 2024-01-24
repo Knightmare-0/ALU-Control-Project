@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+iverilog ../rtl/multicore1.v ../rtl/multicore1_tb.v
+=======
+iverilog ../rtl/TopModule.v ALU_core.v TopModule_tb.v
+>>>>>>> origin/main
+./a.out
+
+gtkwave wave.vcd
+exit 

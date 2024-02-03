@@ -19,5 +19,3 @@ https://docs.google.com/spreadsheets/d/1ljx8D3aer86oXyBBr_dR3ND3B9fEVdWhKcU-J6pY
 + Edit all the script files with proper paths and file names
 + Update the readme file in the synthesis folder - paste the ss of synthesis output for both modules
 + also attach the different gates used
-+ 
-
